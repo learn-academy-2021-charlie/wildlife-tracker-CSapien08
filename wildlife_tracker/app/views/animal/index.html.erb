@@ -1,0 +1,9 @@
+<h1>Wildlife Tracker</h1>
+
+<ul>
+    <% @animals.each do |value| %>
+        <li><%= value.common_name %> </li>
+    <% end %>
+</ul>       
+
+<h4><%= link_to 'Add an Animal', new_animal_path %></h4>

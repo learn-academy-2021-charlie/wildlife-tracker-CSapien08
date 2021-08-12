@@ -1,0 +1,20 @@
+<h1>Add an Animal</h1>
+
+
+<%= form_with model: @animal, local: true do |form| %>
+    <%= form.label :common_name %>
+    <%= form.text_field :common_name %>
+    <br>
+    <br>
+    <%= form.label :latin_name %>
+    <%= form.text_field :latin_name%>
+    <br>
+    <br>
+    <%= form.label :kingdom %>
+    <%= form.text_field :kingdom%>
+    <br>
+    <br>
+    <%= form.submit 'Add Animal'%>
+  <% end %>
+  <br>
+  <br>
