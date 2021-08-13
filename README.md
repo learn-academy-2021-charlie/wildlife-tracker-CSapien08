@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+This was the last one I was working on.
+
+Story: As the consumer of the API I can create a new animal in the database.
